@@ -3,6 +3,7 @@ namespace GlobalVar
     public enum CustomerState
     {
         BUYING,
+        WAITING,
         PAYING
     }
 

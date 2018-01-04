@@ -19,7 +19,7 @@ public class Customer_Manager : MonoBehaviour
     void Start()
     {
         // CustomerList
-        CustomerList[0].SetDestiantion(wayPointList[0].transform.position);
+        CustomerList[0].SetDestiantion(Shop_Manager._instance.listCakeDisplay[0]);
     }
 
     // Update is called once per frame
